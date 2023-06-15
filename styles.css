@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+li {
+    font-family: 'Courier New', Courier, monospace;
+    list-style-type: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-bar {
+    height: 150px;
+    background-color: #1F2937;
+}
+
+.nav-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    font-weight: 600;
+    align-self: center;
+    flex-basis: 150px;
+    padding-left: 15px;
+    color: white;
+}
+
+.menu {
+    display: flex;
+    flex-basis: 200px;
+    padding-right: 30px;
+}
+
+.navlist {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    height: 150px;
+}
+
+/* Hero styling starts here */
+
+.hero-container {
+    display: flex;
+    height: 450px;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 0 auto
+}
+
+.hero-text {
+    align-self: center;
+    flex-basis: 500px;
+}
+.hero-image {
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+}
+
+
+img {
+    height: 250px;
+    width: 250px;
+}
+
+p {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+button {
+    height: 50px;
+    width: 100px;
+    border-radius: 25px;
+    background-color: #1F2937;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button:hover {
+    background-color: white;
+    color: #1F2937;
+    cursor: pointer;
+}
+
+.sub-hero-container {
+    background-color: #1F2937;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 450px;
+}
+
+h1 {
+    color: black;
+}
+
+.con-items {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
